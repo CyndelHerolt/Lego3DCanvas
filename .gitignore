@@ -1,0 +1,11 @@
+# Fichiers du système d'exploitation
+.DS_Store
+
+# Répertoires de node_modules
+node_modules/
+
+# Répertoires de build
+build/
+
+# Répertoires de vscode
+.vscode/
