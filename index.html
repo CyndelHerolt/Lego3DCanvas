@@ -4,7 +4,26 @@
     <meta charset="utf-8">
     <title>Tetris Cube</title>
     <style>
-        body { margin: 0; }
+        body {
+            margin: 0;
+            /* Make body a flex container with centered content */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* Ensure body takes up full viewport height */
+            height: 100vh;
+            overflow: hidden;
+            /* Remove default body padding */
+            padding: 0;
+
+            background-color: #211f33;
+        }
+
+        canvas {
+            /* Inner shadow effect */
+            box-shadow: inset 0 0 10px #000000;
+
+        }
     </style>
 </head>
 <body>
